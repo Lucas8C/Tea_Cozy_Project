@@ -1,0 +1,156 @@
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-nav ul li {
+    margin-right: 20px;
+}
+
+.main-nav ul li a {
+    color: gray;
+    font-size: 20px;
+}
+
+.main-nav ul li a:hover {
+    color: blue;
+}
+
+body,
+p {
+    background-color: black;
+    font-family: 'Helvetica', sans-serif;
+    color: gray;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.mission {
+    background-image: url(./img-mission-background.jpg);
+    background-size: 1000px 700px;
+    background-position: center 30px;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission h2,
+.mission h4 {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: black;
+    padding: 10px;
+    margin: 0 0;
+}
+
+.month-section h2,
+.month-section h4 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.tea-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.tea-item {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tea-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tea-item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.month-section {
+    margin-bottom: 40px;
+}
+
+.Locations {
+    background-image: url(./img-locations-background.jpg);
+    background-size: 1000px 500px;
+    background-position: center 30px;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+
+.border {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.downtown,
+.east-bayside,
+.oakdale {
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: black;
+    width: 300px;
+    margin: 15px 15px;
+}
+
+.tea-cozy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+footer {
+    text-align: left;
+    padding: 10px;
+}
